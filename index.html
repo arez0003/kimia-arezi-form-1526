@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Validation Assignment</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Kimia Arezi's Contact Form">
+        <meta name="keywords" content="HTML,CSS,PHP,contact form,web design">
+        <meta name="author" content="Kimia Arezi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--reset css-->
+        <link rel="stylesheet" href="css/reset.css">
+<!--  font     -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Lato:wght@300&display=swap" rel="stylesheet">
+<!-- icons      -->
+        <script src="https://kit.fontawesome.com/bbd63fe2a6.js" crossorigin="anonymous"></script>  
+<!-- my css      -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    <body class="contact">
+
+        <main>
+<!--error messages-->
+            <div id="error"></div>
+<!--END OF error messages-->
+<!-- legend -->
+            <section class="legend-box"> 
+                <legend> Form Assignment </legend>
+            </section>
+<!-- END OF legend -->
+<!--contact form-->
+            <div class="contactpage">
+                    <form id="form">
+                      <div class="responsive-columns">
+                             <!--  full name-->
+                             <div class="left-column-fullname">
+                                  <label for="fname">Full Name</label><br>
+                                  <input type="text" id="fname" name="fname" placeholder="Type your name here..">
+                              </div>
+                              <br>
+                              <br> 
+                             <!--  email--> 
+                             <div class="right-column-email">
+                                  <label for="email">Email</label><br>
+                                  <input type="text" id="email" name="email" placeholder="name@email.com">
+                            </div>
+                              <br>
+                              <br>
+                      </div> 
+                         <!--text area-->
+                          <label for="message">Message</label><br>
+                             <textarea id="message" name="message"placeholder="Type your message here.."></textarea> <br>
+                          <br>   
+                         <!--submit button-->
+                          <input type="submit" name="submit" value="Submit">
+                    </form>
+
+            </div> 
+<!--END OF contact Form-->
+        </main>
+<!--javascript script-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
